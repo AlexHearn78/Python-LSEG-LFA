@@ -1,0 +1,16 @@
+{
+  "curveDefinition": {
+    "instrumentCode": "AAPL.O",
+    "type": "HistoricalYield",
+    "ric": "AAPL.O"
+  },
+  "curveParameters": {
+    "structure": "DIVTYPE:CONT UI:SEC"
+  },
+  "points": [
+    {
+      "exDate": "2026-05-10T00:00:00Z",
+      "dividendYieldPercent": 0.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+RIC,Currency,Spot,Expected Div %,Implied q %,Residual %,Divs Type,Divs Struct,Divs Pts
+T@RIC,USD,25.16,7.2,0.083,-7.117,HistoricalYield,DIVTYPE:CONT UI:SEC,1
+MO@RIC,USD,68.12,7.8,0.074,-7.726,HistoricalYield,DIVTYPE:CONT UI:SEC,1
+BNPP.PA@RIC,EUR,91.55,5.5,0.052,-5.448,HistoricalYield,DIVTYPE:CONT UI:SEC,1
+VOD.L@RIC,GBP,118.65,9.0,0.12,-8.88,HistoricalYield,DIVTYPE:CONT UI:SEC,1
+GME@RIC,USD,24.28,0.0,0.074,0.074,HistoricalYield,DIVTYPE:CONT UI:SEC,1
+AAPL.O@RIC,USD,293.32,0.4,0.083,-0.317,HistoricalYield,DIVTYPE:CONT UI:SEC,1

@@ -1,0 +1,11 @@
+input,status,ticker,country,reason,name
+ALV.DE DE,unresolved,,,top candidate ALV.DE failed LSEG lookup; no override available,Input already RIC-shaped; verify it actually resolves.
+DAXEX GR,unresolved,DAXEX,GR,no LSEG RIC found; needs source confirmation,iShares Core DAX UCITS ETF
+DISH US,unresolved,DISH,US,no LSEG RIC found; needs source confirmation,DISH Network — merged into EchoStar 2024
+EQUITY US,unresolved,EQUITY,US,no LSEG RIC found; needs source confirmation,"Looks like a malformed paste, not a valid ticker."
+EUX.PA FR,unresolved,,,top candidate EUX.PA failed LSEG lookup; no override available,Input already RIC-shaped; verify it actually resolves.
+FARA US,unresolved,FARA,US,no LSEG RIC found; needs source confirmation,Unrecognized ticker. Could be FARA Pharmaceuticals (delisted) or other. Verify with user.
+FM US,unresolved,FM,US,top candidate FM.K failed LSEG lookup; no override available,iShares MSCI Frontier ETF
+NYY US,unresolved,NYY,US,no LSEG RIC found; needs source confirmation,Not a known ticker. Could be a typo.
+SGEN US,unresolved,SGEN,US,no LSEG RIC found; needs source confirmation,"Seagen — acquired by Pfizer 2023, delisted"
+TWTR US,unresolved,TWTR,US,no LSEG RIC found; needs source confirmation,"Twitter — taken private by Musk in 2022, no longer listed"

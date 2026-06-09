@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[project]
+name = "lseg-quant"
+version = "0.1.0"
+description = "LSEG quantitative analytics platform: vol surfaces, forwards, IRC, COFBox, Starmine."
+requires-python = ">=3.10"
+authors = [{ name = "Alex Hearn" }]
+readme = "README.md"
+dependencies = [
+    # LSEG SDKs — both are used today (eq_volatility/IRC/COFBox vs Starmine fundamentals)
+    "lseg-analytics>=2.0",
+    "lseg-data>=2.0",
+    # Data / numerics
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "python-dateutil>=2.8",
+    # Visualisation (used by chart_*.py / plot_*.py workflows)
+    "matplotlib>=3.7",
+    # Config + CLI
+    "pydantic>=2",
+    "pydantic-settings>=2",
+    "typer>=0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+    "pytest-mock",
+    "ruff",
+    "mypy",
+    "ipykernel",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/lseg_quant"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]  # let formatter handle line length
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "live: tests requiring a live LSEG session (set LSEG_LIVE=1 to run)",
+]

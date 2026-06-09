@@ -1,0 +1,12 @@
+# Ninety One Private Credit Screener — dependencies
+# Install with: pip install -r requirements.txt
+
+# LSEG Data Library (replaces refinitiv-data, eikon)
+lseg-data>=2.0.0
+
+# Data / numerics
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualisation
+matplotlib>=3.7.0

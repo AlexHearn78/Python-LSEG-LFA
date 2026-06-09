@@ -1,0 +1,5 @@
+Company,Sector,Country,CCR Score,CCR Percentile,SmartRatios Score,Struct. CR Score,Net Debt/EBITDA,Interest Cover,EBITDA Margin %,ROE %,Revenue (USD m),Total Assets (USD m),Composite Score,Tier
+MTN Group,Telecoms,South Africa,68,71,65,70,1.8,5.2,32,18.4,12400,14200,100.0,★  Strong Candidate
+Safaricom,Telecoms / Fintech,Kenya,72,75,70,74,1.2,8.1,42,31.2,2200,3800,100.0,★  Strong Candidate
+Dangote Cement,Industrials,Nigeria,55,58,52,58,2.4,6.4,38,22.7,2800,4600,100.0,★  Strong Candidate
+Access Bank,Financials,Nigeria,48,50,45,51,3.8,2.9,22,14.1,4100,22000,20.0,✗  Caution

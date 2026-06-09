@@ -1,0 +1,6 @@
+ric,status,message
+SPY.P@RIC,ERROR,Bad request: code=FinancialContract-API.PricingError Market data: The service failed to gather enough options to build the SPY.P@RIC volatility surface
+QQQ.O@RIC,OK,
+AAPL.O@RIC,OK,
+MSFT.O@RIC,OK,
+.SPX@RIC,OK,

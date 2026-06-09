@@ -1,0 +1,1656 @@
+{
+  "metadata": {
+    "generated_at": "2026-05-07",
+    "total_inputs": 118,
+    "status_legend": {
+      "verified": "RIC was successfully resolved by LSEG historical_pricing_summaries during this session",
+      "trusted_unverified": "High-confidence RIC from override table or index lookup; not individually pinged in this session",
+      "best_guess": "Manual override applied; treat with caution and confirm before production use",
+      "unverified_rule": "RIC derived from BBG-suffix rule; needs verification",
+      "unresolved": "No working RIC found; needs source confirmation or DSS lookup"
+    },
+    "status_counts": {
+      "verified": 50,
+      "trusted_unverified": 16,
+      "best_guess": 3,
+      "unverified_rule": 39,
+      "unresolved": 10
+    }
+  },
+  "records": [
+    {
+      "input": "0011 HK",
+      "classified_type": "bbg_composite",
+      "ric": "0011.HK^A26",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "0011",
+      "country": "HK",
+      "name": "Hang Seng Bank — note 4-digit zero-padded"
+    },
+    {
+      "input": "AAPL US",
+      "classified_type": "bbg_composite",
+      "ric": "AAPL.OQ",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "AAPL",
+      "country": "US",
+      "alternative_candidates": [
+        "AAPL.N",
+        "AAPL.P",
+        "AAPL.A",
+        "AAPL.K"
+      ],
+      "name": "Apple"
+    },
+    {
+      "input": "ADS.DE DE",
+      "classified_type": "ric",
+      "ric": "ADSGn.DE",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "Input already RIC-shaped; verify it actually resolves."
+    },
+    {
+      "input": "AI FP",
+      "classified_type": "bbg_composite",
+      "ric": "AIRP.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "AI",
+      "country": "FP",
+      "alternative_candidates": [
+        "AI.PA"
+      ],
+      "name": "Air Liquide — RIC AIRP.PA"
+    },
+    {
+      "input": "ATVI US",
+      "classified_type": "bbg_composite",
+      "ric": "ATVI.OQ^J23",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "ATVI",
+      "country": "US",
+      "alternative_candidates": [
+        "ATVI.N",
+        "ATVI.P",
+        "ATVI.A",
+        "ATVI.K"
+      ],
+      "name": "Activision Blizzard — acquired by MSFT in 2023, delisted"
+    },
+    {
+      "input": "BA LN",
+      "classified_type": "bbg_composite",
+      "ric": "BAES.L",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "BA",
+      "country": "LN",
+      "alternative_candidates": [
+        "BA.L"
+      ],
+      "name": "Berkshire Hathaway B"
+    },
+    {
+      "input": "BHP LN",
+      "classified_type": "bbg_composite",
+      "ric": "BHPB.L",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "BHP",
+      "country": "LN",
+      "alternative_candidates": [
+        "BHP.L"
+      ],
+      "name": "BHP Group — note: London listing was unified into Australian BHP.AX in 2022; check if active."
+    },
+    {
+      "input": "BN FP",
+      "classified_type": "bbg_composite",
+      "ric": "DANO.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "BN",
+      "country": "FP",
+      "alternative_candidates": [
+        "BN.PA"
+      ],
+      "name": "Danone — RIC DANO.PA"
+    },
+    {
+      "input": "BNP FP",
+      "classified_type": "bbg_composite",
+      "ric": "BNPP.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "BNP",
+      "country": "FP",
+      "alternative_candidates": [
+        "BNP.PA"
+      ],
+      "name": "BNP Paribas"
+    },
+    {
+      "input": "BRK/B US",
+      "classified_type": "bbg_composite",
+      "ric": "BRKb.N",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "BRK/B",
+      "country": "US",
+      "alternative_candidates": [
+        "BRKB.OQ",
+        "BRKB.N",
+        "BRKB.P",
+        "BRKB.A",
+        "BRKB.K"
+      ],
+      "name": "Berkshire Hathaway B"
+    },
+    {
+      "input": "CCMP US",
+      "classified_type": "index",
+      "ric": ".IXIC",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "Nasdaq Composite"
+    },
+    {
+      "input": "COL AU",
+      "classified_type": "bbg_composite",
+      "ric": "COL.AX",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "COL",
+      "country": "AU",
+      "alternative_candidates": [
+        "COL.TO"
+      ],
+      "name": "Coles Group"
+    },
+    {
+      "input": "CS FP",
+      "classified_type": "bbg_composite",
+      "ric": "AXAF.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "CS",
+      "country": "FP",
+      "alternative_candidates": [
+        "CS.PA"
+      ],
+      "name": "AXA — RIC AXAF.PA (CS = Compagnie de Saint-Gobain in some lists, verify)"
+    },
+    {
+      "input": "DG FP",
+      "classified_type": "bbg_composite",
+      "ric": "VIE.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "DG",
+      "country": "FP",
+      "alternative_candidates": [
+        "DG.PA"
+      ],
+      "name": "Vinci — Veolia is VIE.PA, Vinci is SGEF.PA. DG ticker = Vinci."
+    },
+    {
+      "input": "DHL GR",
+      "classified_type": "bbg_composite",
+      "ric": "DHLn.DE",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "DHL",
+      "country": "GR",
+      "alternative_candidates": [
+        "DHL.DE",
+        "DHL.F"
+      ],
+      "name": "DHL Group (formerly Deutsche Post). Note 'n' suffix in RIC for new shares."
+    },
+    {
+      "input": "DJI US",
+      "classified_type": "index",
+      "ric": ".DJI",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "Dow Jones Industrial Average"
+    },
+    {
+      "input": "DSY FP",
+      "classified_type": "bbg_composite",
+      "ric": "DAST.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "DSY",
+      "country": "FP",
+      "alternative_candidates": [
+        "DSY.PA"
+      ],
+      "name": "Dassault Systemes"
+    },
+    {
+      "input": "EL FP",
+      "classified_type": "bbg_composite",
+      "ric": "ESLX.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "EL",
+      "country": "FP",
+      "alternative_candidates": [
+        "EL.PA"
+      ],
+      "name": "EssilorLuxottica"
+    },
+    {
+      "input": "ENB CN",
+      "classified_type": "bbg_composite",
+      "ric": "ENB.TO",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "ENB",
+      "country": "CN",
+      "alternative_candidates": [
+        "ENB.N",
+        "ENB.V"
+      ],
+      "name": "Enbridge — TSX primary, also NYSE"
+    },
+    {
+      "input": "ENEL IM",
+      "classified_type": "bbg_composite",
+      "ric": "ENEI.MI",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "ENEL",
+      "country": "IM",
+      "alternative_candidates": [
+        "ENEL.MI"
+      ],
+      "name": "Enel"
+    },
+    {
+      "input": "ENGI FP",
+      "classified_type": "bbg_composite",
+      "ric": "ENGIE.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "ENGI",
+      "country": "FP",
+      "alternative_candidates": [
+        "ENGI.PA"
+      ],
+      "name": "Engie"
+    },
+    {
+      "input": "EOFEQNR NO",
+      "classified_type": "bbg_composite",
+      "ric": "EQNR.OL",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "EOFEQNR",
+      "country": "NO",
+      "name": "Equinor — but check, EQNR.OL is the standard"
+    },
+    {
+      "input": "ES52 US",
+      "classified_type": "index",
+      "ric": ".SPX",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "S&P 500 (BBG ES52 alias)"
+    },
+    {
+      "input": "ESGIE US",
+      "classified_type": "bbg_composite",
+      "ric": "ESGE.OQ",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "ESGIE",
+      "country": "US",
+      "name": "Possibly an iShares ESG ETF — check ESGE.OQ or similar."
+    },
+    {
+      "input": "ESGZ US",
+      "classified_type": "bbg_composite",
+      "ric": "EFIV.K",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "ESGZ",
+      "country": "US",
+      "name": "Possibly SPDR ESG ETF — check EFIV.P or similar."
+    },
+    {
+      "input": "EU50 US",
+      "classified_type": "index",
+      "ric": ".STOXX50E",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "Euro Stoxx 50"
+    },
+    {
+      "input": "EUNL NL",
+      "classified_type": "bbg_composite",
+      "ric": "EUNL.DE",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "EUNL",
+      "country": "NL",
+      "alternative_candidates": [],
+      "name": "iShares Core MSCI World UCITS ETF — Xetra primary despite NL Bloomberg code"
+    },
+    {
+      "input": "FLTR US",
+      "classified_type": "bbg_composite",
+      "ric": "FLTR.K",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "FLTR",
+      "country": "US",
+      "alternative_candidates": [
+        "FLTR.OQ",
+        "FLTR.N",
+        "FLTR.P",
+        "FLTR.A"
+      ],
+      "name": "VanEck Investment Grade Floating Rate ETF"
+    },
+    {
+      "input": "FRAZ US",
+      "classified_type": "bbg_composite",
+      "ric": "FRAZ.PK",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "FRAZ",
+      "country": "US",
+      "name": "Unrecognized."
+    },
+    {
+      "input": "IAG LN",
+      "classified_type": "bbg_composite",
+      "ric": "ICAG.L",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "IAG",
+      "country": "LN",
+      "alternative_candidates": [
+        "IAG.L"
+      ],
+      "name": "International Consolidated Airlines Group"
+    },
+    {
+      "input": "JKSE ID",
+      "classified_type": "index",
+      "ric": ".JKSE",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "Jakarta Composite"
+    },
+    {
+      "input": "JSW PL",
+      "classified_type": "bbg_composite",
+      "ric": "JSW.WA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "JSW",
+      "country": "PL",
+      "alternative_candidates": [
+        "JSW.LS"
+      ],
+      "name": "Jastrzebska Spolka Weglowa — Polish, not Lisbon"
+    },
+    {
+      "input": "K DP",
+      "classified_type": "bbg_composite",
+      "ric": "K.N^L25",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "K",
+      "country": "DP",
+      "name": "Unrecognized BBG code. DP not in standard country list."
+    },
+    {
+      "input": "KER FP",
+      "classified_type": "bbg_composite",
+      "ric": "PRTP.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "KER",
+      "country": "FP",
+      "alternative_candidates": [
+        "KER.PA"
+      ],
+      "name": "Kering — RIC PRTP.PA (legacy PPR)"
+    },
+    {
+      "input": "KOSPI KR",
+      "classified_type": "index",
+      "ric": ".KS11",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "KOSPI"
+    },
+    {
+      "input": "NSRGY US",
+      "classified_type": "bbg_composite",
+      "ric": "NSRGY.PK",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "NSRGY",
+      "country": "US",
+      "alternative_candidates": [
+        "NSRGY.OQ",
+        "NSRGY.N",
+        "NSRGY.P",
+        "NSRGY.A",
+        "NSRGY.K"
+      ],
+      "name": "Nestle ADR (OTC pink)"
+    },
+    {
+      "input": "OR FP",
+      "classified_type": "bbg_composite",
+      "ric": "OREP.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "OR",
+      "country": "FP",
+      "alternative_candidates": [
+        "OR.PA"
+      ],
+      "name": "L'Oreal"
+    },
+    {
+      "input": "REX US",
+      "classified_type": "bbg_composite",
+      "ric": "REX.A",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "REX",
+      "country": "US",
+      "alternative_candidates": [
+        "REX.OQ",
+        "REX.N",
+        "REX.P",
+        "REX.K"
+      ],
+      "name": "Possibly REX American Resources (NYSE American)"
+    },
+    {
+      "input": "RI FP",
+      "classified_type": "bbg_composite",
+      "ric": "PERP.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "RI",
+      "country": "FP",
+      "alternative_candidates": [
+        "RI.PA"
+      ],
+      "name": "Pernod Ricard"
+    },
+    {
+      "input": "RMD AU",
+      "classified_type": "bbg_composite",
+      "ric": "RMD.AX",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "RMD",
+      "country": "AU",
+      "alternative_candidates": [
+        "RMD.N"
+      ],
+      "name": "ResMed — ASX primary, also NYSE"
+    },
+    {
+      "input": "RR LN",
+      "classified_type": "bbg_composite",
+      "ric": "RR.L",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "RR",
+      "country": "LN",
+      "name": "Rolls-Royce Holdings"
+    },
+    {
+      "input": "SAN FP",
+      "classified_type": "bbg_composite",
+      "ric": "SASY.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "SAN",
+      "country": "FP",
+      "alternative_candidates": [
+        "SAN.PA"
+      ],
+      "name": "Sanofi"
+    },
+    {
+      "input": "SHEL LN",
+      "classified_type": "bbg_composite",
+      "ric": "SHEL.L",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "SHEL",
+      "country": "LN",
+      "alternative_candidates": [
+        "SHEL.AS"
+      ],
+      "name": "Shell — London primary post-unification"
+    },
+    {
+      "input": "SHOP CA",
+      "classified_type": "bbg_composite",
+      "ric": "SHOP.TO",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "SHOP",
+      "country": "CA",
+      "alternative_candidates": [
+        "SHOP.N"
+      ],
+      "name": "Shopify"
+    },
+    {
+      "input": "SSEC CN",
+      "classified_type": "index",
+      "ric": ".SSEC",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "name": "Shanghai Composite"
+    },
+    {
+      "input": "SU CA",
+      "classified_type": "bbg_composite",
+      "ric": "SU.TO",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "SU",
+      "country": "CA",
+      "alternative_candidates": [
+        "SU.N"
+      ],
+      "name": "Suncor"
+    },
+    {
+      "input": "SU FP",
+      "classified_type": "bbg_composite",
+      "ric": "SCHN.PA",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "SU",
+      "country": "FP",
+      "alternative_candidates": [
+        "SU.PA"
+      ],
+      "name": "Schneider Electric"
+    },
+    {
+      "input": "TD CA",
+      "classified_type": "bbg_composite",
+      "ric": "TD.TO",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "TD",
+      "country": "CA",
+      "alternative_candidates": [
+        "TD.N"
+      ],
+      "name": "Toronto-Dominion"
+    },
+    {
+      "input": "UCG IM",
+      "classified_type": "bbg_composite",
+      "ric": "CRDI.MI",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "UCG",
+      "country": "IM",
+      "alternative_candidates": [
+        "UCG.MI"
+      ],
+      "name": "UniCredit — RIC CRDI.MI"
+    },
+    {
+      "input": "WDS AU",
+      "classified_type": "bbg_composite",
+      "ric": "WDS.AX",
+      "status": "verified",
+      "reason": "verified against LSEG",
+      "ticker": "WDS",
+      "country": "AU",
+      "alternative_candidates": [
+        "WDS.TO"
+      ],
+      "name": "Woodside Energy"
+    },
+    {
+      "input": "AMZN US",
+      "classified_type": "bbg_composite",
+      "ric": "AMZN.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "AMZN",
+      "country": "US",
+      "alternative_candidates": [
+        "AMZN.N",
+        "AMZN.P",
+        "AMZN.A",
+        "AMZN.K"
+      ],
+      "name": "Amazon"
+    },
+    {
+      "input": "BABA US",
+      "classified_type": "bbg_composite",
+      "ric": "BABA.N",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "BABA",
+      "country": "US",
+      "alternative_candidates": [
+        "BABA.OQ",
+        "BABA.P",
+        "BABA.A",
+        "BABA.K"
+      ],
+      "name": "Alibaba ADR"
+    },
+    {
+      "input": "COIN US",
+      "classified_type": "bbg_composite",
+      "ric": "COIN.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "COIN",
+      "country": "US",
+      "alternative_candidates": [
+        "COIN.N",
+        "COIN.P",
+        "COIN.A",
+        "COIN.K"
+      ],
+      "name": "Coinbase"
+    },
+    {
+      "input": "FIVE US",
+      "classified_type": "bbg_composite",
+      "ric": "FIVE.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "FIVE",
+      "country": "US",
+      "alternative_candidates": [
+        "FIVE.N",
+        "FIVE.P",
+        "FIVE.A",
+        "FIVE.K"
+      ],
+      "name": "Five Below"
+    },
+    {
+      "input": "FSLR US",
+      "classified_type": "bbg_composite",
+      "ric": "FSLR.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "FSLR",
+      "country": "US",
+      "alternative_candidates": [
+        "FSLR.N",
+        "FSLR.P",
+        "FSLR.A",
+        "FSLR.K"
+      ],
+      "name": "First Solar"
+    },
+    {
+      "input": "GGAL US",
+      "classified_type": "bbg_composite",
+      "ric": "GGAL.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "GGAL",
+      "country": "US",
+      "alternative_candidates": [
+        "GGAL.N",
+        "GGAL.P",
+        "GGAL.A",
+        "GGAL.K"
+      ],
+      "name": "Grupo Galicia ADR"
+    },
+    {
+      "input": "GMAB US",
+      "classified_type": "bbg_composite",
+      "ric": "GMAB.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "GMAB",
+      "country": "US",
+      "alternative_candidates": [
+        "GMAB.N",
+        "GMAB.P",
+        "GMAB.A",
+        "GMAB.K"
+      ],
+      "name": "Genmab ADR"
+    },
+    {
+      "input": "GOOG US",
+      "classified_type": "bbg_composite",
+      "ric": "GOOG.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "GOOG",
+      "country": "US",
+      "alternative_candidates": [
+        "GOOG.N",
+        "GOOG.P",
+        "GOOG.A",
+        "GOOG.K"
+      ],
+      "name": "Alphabet Class C"
+    },
+    {
+      "input": "IBIT US",
+      "classified_type": "bbg_composite",
+      "ric": "IBIT.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "IBIT",
+      "country": "US",
+      "alternative_candidates": [
+        "IBIT.N",
+        "IBIT.P",
+        "IBIT.A",
+        "IBIT.K"
+      ],
+      "name": "iShares Bitcoin Trust ETF"
+    },
+    {
+      "input": "ITUB US",
+      "classified_type": "bbg_composite",
+      "ric": "ITUB.N",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "ITUB",
+      "country": "US",
+      "alternative_candidates": [
+        "ITUB.OQ",
+        "ITUB.P",
+        "ITUB.A",
+        "ITUB.K"
+      ],
+      "name": "Itau Unibanco ADR"
+    },
+    {
+      "input": "LFC CN",
+      "classified_type": "bbg_composite",
+      "ric": "LFC.N",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "LFC",
+      "country": "CN",
+      "alternative_candidates": [
+        "LFC.TO",
+        "LFC.V"
+      ],
+      "name": "China Life Insurance ADR — note: BBG CN here is misleading; this is a NYSE-listed ADR"
+    },
+    {
+      "input": "MELI US",
+      "classified_type": "bbg_composite",
+      "ric": "MELI.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "MELI",
+      "country": "US",
+      "alternative_candidates": [
+        "MELI.N",
+        "MELI.P",
+        "MELI.A",
+        "MELI.K"
+      ],
+      "name": "MercadoLibre"
+    },
+    {
+      "input": "META US",
+      "classified_type": "bbg_composite",
+      "ric": "META.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "META",
+      "country": "US",
+      "alternative_candidates": [
+        "META.N",
+        "META.P",
+        "META.A",
+        "META.K"
+      ],
+      "name": "Meta Platforms"
+    },
+    {
+      "input": "NVDA US",
+      "classified_type": "bbg_composite",
+      "ric": "NVDA.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "NVDA",
+      "country": "US",
+      "alternative_candidates": [
+        "NVDA.N",
+        "NVDA.P",
+        "NVDA.A",
+        "NVDA.K"
+      ],
+      "name": "Nvidia"
+    },
+    {
+      "input": "SNY US",
+      "classified_type": "bbg_composite",
+      "ric": "SNY.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "SNY",
+      "country": "US",
+      "alternative_candidates": [
+        "SNY.N",
+        "SNY.P",
+        "SNY.A",
+        "SNY.K"
+      ],
+      "name": "Sanofi ADR"
+    },
+    {
+      "input": "TSLA US",
+      "classified_type": "bbg_composite",
+      "ric": "TSLA.OQ",
+      "status": "trusted_unverified",
+      "reason": "high-confidence override; not individually verified in this session",
+      "ticker": "TSLA",
+      "country": "US",
+      "alternative_candidates": [
+        "TSLA.N",
+        "TSLA.P",
+        "TSLA.A",
+        "TSLA.K"
+      ],
+      "name": "Tesla"
+    },
+    {
+      "input": "ANTM US",
+      "classified_type": "bbg_composite",
+      "ric": "ELV.N",
+      "status": "best_guess",
+      "reason": "manual override; not LSEG-verified in this session",
+      "ticker": "ANTM",
+      "country": "US",
+      "alternative_candidates": [
+        "ANTM.OQ",
+        "ANTM.N",
+        "ANTM.P",
+        "ANTM.A",
+        "ANTM.K"
+      ],
+      "name": "Anthem rebranded to Elevance Health (ELV) in 2022"
+    },
+    {
+      "input": "DIDI US",
+      "classified_type": "bbg_composite",
+      "ric": "DIDI.PK",
+      "status": "best_guess",
+      "reason": "manual override; not LSEG-verified in this session",
+      "ticker": "DIDI",
+      "country": "US",
+      "alternative_candidates": [
+        "DIDI.OQ",
+        "DIDI.N",
+        "DIDI.P",
+        "DIDI.A",
+        "DIDI.K"
+      ],
+      "name": "Didi (delisted from NYSE, OTC)"
+    },
+    {
+      "input": "FISV US",
+      "classified_type": "bbg_composite",
+      "ric": "FI.N",
+      "status": "best_guess",
+      "reason": "manual override; not LSEG-verified in this session",
+      "ticker": "FISV",
+      "country": "US",
+      "alternative_candidates": [
+        "FISV.OQ",
+        "FISV.N",
+        "FISV.P",
+        "FISV.A",
+        "FISV.K"
+      ],
+      "name": "Fiserv — note: rebranded, ticker now FI"
+    },
+    {
+      "input": "ABBV US",
+      "classified_type": "bbg_composite",
+      "ric": "ABBV.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ABBV",
+      "country": "US",
+      "alternative_candidates": [
+        "ABBV.N",
+        "ABBV.P",
+        "ABBV.A",
+        "ABBV.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ABNB US",
+      "classified_type": "bbg_composite",
+      "ric": "ABNB.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ABNB",
+      "country": "US",
+      "alternative_candidates": [
+        "ABNB.N",
+        "ABNB.P",
+        "ABNB.A",
+        "ABNB.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ADBE US",
+      "classified_type": "bbg_composite",
+      "ric": "ADBE.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ADBE",
+      "country": "US",
+      "alternative_candidates": [
+        "ADBE.N",
+        "ADBE.P",
+        "ADBE.A",
+        "ADBE.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ADI US",
+      "classified_type": "bbg_composite",
+      "ric": "ADI.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ADI",
+      "country": "US",
+      "alternative_candidates": [
+        "ADI.N",
+        "ADI.P",
+        "ADI.A",
+        "ADI.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ADP US",
+      "classified_type": "bbg_composite",
+      "ric": "ADP.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ADP",
+      "country": "US",
+      "alternative_candidates": [
+        "ADP.N",
+        "ADP.P",
+        "ADP.A",
+        "ADP.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "AEP US",
+      "classified_type": "bbg_composite",
+      "ric": "AEP.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "AEP",
+      "country": "US",
+      "alternative_candidates": [
+        "AEP.N",
+        "AEP.P",
+        "AEP.A",
+        "AEP.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "AMD US",
+      "classified_type": "bbg_composite",
+      "ric": "AMD.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "AMD",
+      "country": "US",
+      "alternative_candidates": [
+        "AMD.N",
+        "AMD.P",
+        "AMD.A",
+        "AMD.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "AMGN US",
+      "classified_type": "bbg_composite",
+      "ric": "AMGN.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "AMGN",
+      "country": "US",
+      "alternative_candidates": [
+        "AMGN.N",
+        "AMGN.P",
+        "AMGN.A",
+        "AMGN.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "AVGO US",
+      "classified_type": "bbg_composite",
+      "ric": "AVGO.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "AVGO",
+      "country": "US",
+      "alternative_candidates": [
+        "AVGO.N",
+        "AVGO.P",
+        "AVGO.A",
+        "AVGO.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "BIIB US",
+      "classified_type": "bbg_composite",
+      "ric": "BIIB.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "BIIB",
+      "country": "US",
+      "alternative_candidates": [
+        "BIIB.N",
+        "BIIB.P",
+        "BIIB.A",
+        "BIIB.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "BKNG US",
+      "classified_type": "bbg_composite",
+      "ric": "BKNG.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "BKNG",
+      "country": "US",
+      "alternative_candidates": [
+        "BKNG.N",
+        "BKNG.P",
+        "BKNG.A",
+        "BKNG.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "CHTR US",
+      "classified_type": "bbg_composite",
+      "ric": "CHTR.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "CHTR",
+      "country": "US",
+      "alternative_candidates": [
+        "CHTR.N",
+        "CHTR.P",
+        "CHTR.A",
+        "CHTR.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "CME US",
+      "classified_type": "bbg_composite",
+      "ric": "CME.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "CME",
+      "country": "US",
+      "alternative_candidates": [
+        "CME.N",
+        "CME.P",
+        "CME.A",
+        "CME.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "COST US",
+      "classified_type": "bbg_composite",
+      "ric": "COST.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "COST",
+      "country": "US",
+      "alternative_candidates": [
+        "COST.N",
+        "COST.P",
+        "COST.A",
+        "COST.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "CSCO US",
+      "classified_type": "bbg_composite",
+      "ric": "CSCO.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "CSCO",
+      "country": "US",
+      "alternative_candidates": [
+        "CSCO.N",
+        "CSCO.P",
+        "CSCO.A",
+        "CSCO.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "CSX US",
+      "classified_type": "bbg_composite",
+      "ric": "CSX.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "CSX",
+      "country": "US",
+      "alternative_candidates": [
+        "CSX.N",
+        "CSX.P",
+        "CSX.A",
+        "CSX.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "EA US",
+      "classified_type": "bbg_composite",
+      "ric": "EA.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "EA",
+      "country": "US",
+      "alternative_candidates": [
+        "EA.N",
+        "EA.P",
+        "EA.A",
+        "EA.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "EBAY US",
+      "classified_type": "bbg_composite",
+      "ric": "EBAY.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "EBAY",
+      "country": "US",
+      "alternative_candidates": [
+        "EBAY.N",
+        "EBAY.P",
+        "EBAY.A",
+        "EBAY.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "GILD US",
+      "classified_type": "bbg_composite",
+      "ric": "GILD.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "GILD",
+      "country": "US",
+      "alternative_candidates": [
+        "GILD.N",
+        "GILD.P",
+        "GILD.A",
+        "GILD.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "HES US",
+      "classified_type": "bbg_composite",
+      "ric": "HES.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "HES",
+      "country": "US",
+      "alternative_candidates": [
+        "HES.N",
+        "HES.P",
+        "HES.A",
+        "HES.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "HON US",
+      "classified_type": "bbg_composite",
+      "ric": "HON.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "HON",
+      "country": "US",
+      "alternative_candidates": [
+        "HON.N",
+        "HON.P",
+        "HON.A",
+        "HON.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ILMN US",
+      "classified_type": "bbg_composite",
+      "ric": "ILMN.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ILMN",
+      "country": "US",
+      "alternative_candidates": [
+        "ILMN.N",
+        "ILMN.P",
+        "ILMN.A",
+        "ILMN.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "INTC US",
+      "classified_type": "bbg_composite",
+      "ric": "INTC.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "INTC",
+      "country": "US",
+      "alternative_candidates": [
+        "INTC.N",
+        "INTC.P",
+        "INTC.A",
+        "INTC.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "INTU US",
+      "classified_type": "bbg_composite",
+      "ric": "INTU.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "INTU",
+      "country": "US",
+      "alternative_candidates": [
+        "INTU.N",
+        "INTU.P",
+        "INTU.A",
+        "INTU.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ISRG US",
+      "classified_type": "bbg_composite",
+      "ric": "ISRG.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "ISRG",
+      "country": "US",
+      "alternative_candidates": [
+        "ISRG.N",
+        "ISRG.P",
+        "ISRG.A",
+        "ISRG.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "KHC US",
+      "classified_type": "bbg_composite",
+      "ric": "KHC.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "KHC",
+      "country": "US",
+      "alternative_candidates": [
+        "KHC.N",
+        "KHC.P",
+        "KHC.A",
+        "KHC.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "LRCX US",
+      "classified_type": "bbg_composite",
+      "ric": "LRCX.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "LRCX",
+      "country": "US",
+      "alternative_candidates": [
+        "LRCX.N",
+        "LRCX.P",
+        "LRCX.A",
+        "LRCX.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "LULU US",
+      "classified_type": "bbg_composite",
+      "ric": "LULU.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "LULU",
+      "country": "US",
+      "alternative_candidates": [
+        "LULU.N",
+        "LULU.P",
+        "LULU.A",
+        "LULU.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "MU US",
+      "classified_type": "bbg_composite",
+      "ric": "MU.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "MU",
+      "country": "US",
+      "alternative_candidates": [
+        "MU.N",
+        "MU.P",
+        "MU.A",
+        "MU.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "NTES US",
+      "classified_type": "bbg_composite",
+      "ric": "NTES.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "NTES",
+      "country": "US",
+      "alternative_candidates": [
+        "NTES.N",
+        "NTES.P",
+        "NTES.A",
+        "NTES.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "NXPI US",
+      "classified_type": "bbg_composite",
+      "ric": "NXPI.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "NXPI",
+      "country": "US",
+      "alternative_candidates": [
+        "NXPI.N",
+        "NXPI.P",
+        "NXPI.A",
+        "NXPI.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "PYPL US",
+      "classified_type": "bbg_composite",
+      "ric": "PYPL.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "PYPL",
+      "country": "US",
+      "alternative_candidates": [
+        "PYPL.N",
+        "PYPL.P",
+        "PYPL.A",
+        "PYPL.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "QCOM US",
+      "classified_type": "bbg_composite",
+      "ric": "QCOM.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "QCOM",
+      "country": "US",
+      "alternative_candidates": [
+        "QCOM.N",
+        "QCOM.P",
+        "QCOM.A",
+        "QCOM.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "SBUX US",
+      "classified_type": "bbg_composite",
+      "ric": "SBUX.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "SBUX",
+      "country": "US",
+      "alternative_candidates": [
+        "SBUX.N",
+        "SBUX.P",
+        "SBUX.A",
+        "SBUX.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "SNOW US",
+      "classified_type": "bbg_composite",
+      "ric": "SNOW.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "SNOW",
+      "country": "US",
+      "alternative_candidates": [
+        "SNOW.N",
+        "SNOW.P",
+        "SNOW.A",
+        "SNOW.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "SQ US",
+      "classified_type": "bbg_composite",
+      "ric": "SQ.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "SQ",
+      "country": "US",
+      "alternative_candidates": [
+        "SQ.N",
+        "SQ.P",
+        "SQ.A",
+        "SQ.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "TXN US",
+      "classified_type": "bbg_composite",
+      "ric": "TXN.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "TXN",
+      "country": "US",
+      "alternative_candidates": [
+        "TXN.N",
+        "TXN.P",
+        "TXN.A",
+        "TXN.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "WBA US",
+      "classified_type": "bbg_composite",
+      "ric": "WBA.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "WBA",
+      "country": "US",
+      "alternative_candidates": [
+        "WBA.N",
+        "WBA.P",
+        "WBA.A",
+        "WBA.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "WMT US",
+      "classified_type": "bbg_composite",
+      "ric": "WMT.OQ",
+      "status": "unverified_rule",
+      "reason": "derived from rule; verify before use",
+      "ticker": "WMT",
+      "country": "US",
+      "alternative_candidates": [
+        "WMT.N",
+        "WMT.P",
+        "WMT.A",
+        "WMT.K"
+      ],
+      "name": "BBG suffix rule: US -> .OQ"
+    },
+    {
+      "input": "ALV.DE DE",
+      "classified_type": "ric",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "top candidate ALV.DE failed LSEG lookup; no override available",
+      "name": "Input already RIC-shaped; verify it actually resolves."
+    },
+    {
+      "input": "DAXEX GR",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "DAXEX",
+      "country": "GR",
+      "name": "iShares Core DAX UCITS ETF"
+    },
+    {
+      "input": "DISH US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "DISH",
+      "country": "US",
+      "name": "DISH Network — merged into EchoStar 2024"
+    },
+    {
+      "input": "EQUITY US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "EQUITY",
+      "country": "US",
+      "name": "Looks like a malformed paste, not a valid ticker."
+    },
+    {
+      "input": "EUX.PA FR",
+      "classified_type": "ric",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "top candidate EUX.PA failed LSEG lookup; no override available",
+      "name": "Input already RIC-shaped; verify it actually resolves."
+    },
+    {
+      "input": "FARA US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "FARA",
+      "country": "US",
+      "name": "Unrecognized ticker. Could be FARA Pharmaceuticals (delisted) or other. Verify with user."
+    },
+    {
+      "input": "FM US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "top candidate FM.K failed LSEG lookup; no override available",
+      "ticker": "FM",
+      "country": "US",
+      "name": "iShares MSCI Frontier ETF"
+    },
+    {
+      "input": "NYY US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "NYY",
+      "country": "US",
+      "name": "Not a known ticker. Could be a typo."
+    },
+    {
+      "input": "SGEN US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "SGEN",
+      "country": "US",
+      "name": "Seagen — acquired by Pfizer 2023, delisted"
+    },
+    {
+      "input": "TWTR US",
+      "classified_type": "bbg_composite",
+      "ric": null,
+      "status": "unresolved",
+      "reason": "no LSEG RIC found; needs source confirmation",
+      "ticker": "TWTR",
+      "country": "US",
+      "name": "Twitter — taken private by Musk in 2022, no longer listed"
+    }
+  ]
+}

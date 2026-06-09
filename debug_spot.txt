@@ -1,0 +1,5 @@
+underlying_spot: [{'instrumentCode': 'T', 'timeStamp': 'Default', 'priceSide': 'Mid', 'price': 25.16}]
+type: <class 'list'>
+List of length 1
+First element: {'instrumentCode': 'T', 'timeStamp': 'Default', 'priceSide': 'Mid', 'price': 25.16}
+Type: dict

@@ -1,0 +1,133 @@
+bbg_name,override_ric,note
+0011 HK,0011.HK^A26,verified prompt | verified against LSEG | Hang Seng Bank — note 4-digit zero-padded
+AAPL US,AAPL.OQ,verified prompt | verified against LSEG | Apple
+ABBV US,ABBV.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ABI BB,ABI.BR@RIC,AB InBev Brussels - note .BR not .BB
+ABNB US,ABNB.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ADBE US,ADBE.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ADI US,ADI.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ADP US,ADP.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ADS GR,ADSGn.DE@RIC,adidas - uses 'n' suffix for nominative shares in some conventions
+ADS.DE DE,ADSGn.DE,verified prompt | verified against LSEG | Input already RIC-shaped; verify it actually resolves.
+AEP US,AEP.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+AI FP,AIRP.PA,verified prompt | verified against LSEG | Air Liquide — RIC AIRP.PA
+ALV GR,ALVG.DE@RIC,Allianz nominative
+AMD US,AMD.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+AMGN US,AMGN.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+AMZN US,AMZN.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Amazon
+ANTM US,ELV.N,best guess prompt override | manual override; not LSEG-verified in this session | Anthem rebranded to Elevance Health (ELV) in 2022
+ATVI US,ATVI.OQ^J23,"verified prompt | verified against LSEG | Activision Blizzard — acquired by MSFT in 2023, delisted"
+AVGO US,AVGO.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+BA LN,BAES.L,verified prompt | verified against LSEG | Berkshire Hathaway B
+BABA US,BABA.N,trusted unverified prompt override | high-confidence override; not individually verified in this session | Alibaba ADR
+BAS GR,BASFn.DE@RIC,BASF nominative
+BAYN GR,BAYGn.DE@RIC,Bayer
+BHP LN,BHPB.L,verified prompt | verified against LSEG | BHP Group — note: London listing was unified into Australian BHP.AX in 2022; check if active.
+BIIB US,BIIB.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+BKNG US,BKNG.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+BMW GR,BMWG.DE@RIC,BMW
+BN FP,DANO.PA,verified prompt | verified against LSEG | Danone — RIC DANO.PA
+BNP FP,BNPP.PA,verified prompt | verified against LSEG | BNP Paribas
+BRK/B US,BRKb.N,verified prompt | verified against LSEG | Berkshire Hathaway B
+BT-A LN,BT.L@RIC,BT Group ticker is BT.A on BBG but BT.L on Reuters
+CCMP US,.IXIC,verified prompt | verified against LSEG | Nasdaq Composite
+CHTR US,CHTR.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+CME US,CME.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+COIN US,COIN.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Coinbase
+COL AU,COL.AX,verified prompt | verified against LSEG | Coles Group
+COST US,COST.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+CS FP,AXAF.PA,"verified prompt | verified against LSEG | AXA — RIC AXAF.PA (CS = Compagnie de Saint-Gobain in some lists, verify)"
+CSCO US,CSCO.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+CSX US,CSX.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+DB1 GR,DB1Gn.DE@RIC,Deutsche Boerse nominative
+DG FP,VIE.PA,"verified prompt | verified against LSEG | Vinci — Veolia is VIE.PA, Vinci is SGEF.PA. DG ticker = Vinci."
+DHL GR,DHLn.DE,verified prompt | verified against LSEG | DHL Group (formerly Deutsche Post). Note 'n' suffix in RIC for new shares.
+DIDI US,DIDI.PK,"best guess prompt override | manual override; not LSEG-verified in this session | Didi (delisted from NYSE, OTC)"
+DJI US,.DJI,verified prompt | verified against LSEG | Dow Jones Industrial Average
+DSY FP,DAST.PA,verified prompt | verified against LSEG | Dassault Systemes
+DTE GR,DTEGn.DE@RIC,Deutsche Telekom nominative
+EA US,EA.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+EBAY US,EBAY.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+EL FP,ESLX.PA,verified prompt | verified against LSEG | EssilorLuxottica
+ENB CN,ENB.TO,"verified prompt | verified against LSEG | Enbridge — TSX primary, also NYSE"
+ENEL IM,ENEI.MI,verified prompt | verified against LSEG | Enel
+ENGI FP,ENGIE.PA,verified prompt | verified against LSEG | Engie
+EOFEQNR NO,EQNR.OL,"verified prompt | verified against LSEG | Equinor — but check, EQNR.OL is the standard"
+ES52 US,.SPX,verified prompt | verified against LSEG | S&P 500 (BBG ES52 alias)
+ESGIE US,ESGE.OQ,verified prompt | verified against LSEG | Possibly an iShares ESG ETF — check ESGE.OQ or similar.
+ESGZ US,EFIV.K,verified prompt | verified against LSEG | Possibly SPDR ESG ETF — check EFIV.P or similar.
+EU50 US,.STOXX50E,verified prompt | verified against LSEG | Euro Stoxx 50
+EUNL NL,EUNL.DE,verified prompt | verified against LSEG | iShares Core MSCI World UCITS ETF — Xetra primary despite NL Bloomberg code
+FISV US,FI.N,"best guess prompt override | manual override; not LSEG-verified in this session | Fiserv — note: rebranded, ticker now FI"
+FIVE US,FIVE.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Five Below
+FLTR US,FLTR.K,verified prompt | verified against LSEG | VanEck Investment Grade Floating Rate ETF
+FRAZ US,FRAZ.PK,verified prompt | verified against LSEG | Unrecognized.
+FSLR US,FSLR.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | First Solar
+GGAL US,GGAL.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Grupo Galicia ADR
+GILD US,GILD.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+GMAB US,GMAB.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Genmab ADR
+GOOG US,GOOG.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Alphabet Class C
+HES US,HES.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+HON US,HON.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+HSBC GB,HSBA.L@RIC,HSBC's LSE ticker is HSBA not HSBC; HSBC alone is the ADR
+HSBC LN,HSBA.L@RIC,Same as above
+IAG LN,ICAG.L,verified prompt | verified against LSEG | International Consolidated Airlines Group
+IBIT US,IBIT.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | iShares Bitcoin Trust ETF
+IFX GR,IFXGn.DE@RIC,Infineon nominative
+ILMN US,ILMN.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+INTC US,INTC.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+INTU US,INTU.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ISRG US,ISRG.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+ITUB US,ITUB.N,trusted unverified prompt override | high-confidence override; not individually verified in this session | Itau Unibanco ADR
+JKSE ID,.JKSE,verified prompt | verified against LSEG | Jakarta Composite
+JSW PL,JSW.WA,"verified prompt | verified against LSEG | Jastrzebska Spolka Weglowa — Polish, not Lisbon"
+K DP,K.N^L25,verified prompt | verified against LSEG | Unrecognized BBG code. DP not in standard country list.
+KER FP,PRTP.PA,verified prompt | verified against LSEG | Kering — RIC PRTP.PA (legacy PPR)
+KHC US,KHC.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+KOSPI KR,.KS11,verified prompt | verified against LSEG | KOSPI
+LFC CN,LFC.N,trusted unverified prompt override | high-confidence override; not individually verified in this session | China Life Insurance ADR — note: BBG CN here is misleading; this is a NYSE-listed ADR
+LRCX US,LRCX.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+LULU US,LULU.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+MBG GR,MBGn.DE@RIC,Mercedes-Benz nominative
+MC FP,LVMH.PA@RIC,LVMH primary RIC
+MELI US,MELI.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | MercadoLibre
+META US,META.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Meta Platforms
+MU US,MU.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+MUV2 GR,MUVGn.DE@RIC,Munich Re nominative
+NDA FH,NDAFI.HE@RIC,Nordea Helsinki
+NESTE FH,NESTE.HE@RIC,Neste Helsinki
+NSRGY US,NSRGY.PK,verified prompt | verified against LSEG | Nestle ADR (OTC pink)
+NTES US,NTES.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+NVDA US,NVDA.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Nvidia
+NXPI US,NXPI.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+OR FP,OREP.PA,verified prompt | verified against LSEG | L'Oreal
+PYPL US,PYPL.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+QCOM US,QCOM.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+RACE IM,RACE.MI@RIC,Ferrari Milan
+REX US,REX.A,verified prompt | verified against LSEG | Possibly REX American Resources (NYSE American)
+RI FP,PERP.PA,verified prompt | verified against LSEG | Pernod Ricard
+RMD AU,RMD.AX,"verified prompt | verified against LSEG | ResMed — ASX primary, also NYSE"
+RR LN,RR.L,verified prompt | verified against LSEG | Rolls-Royce Holdings
+SAN FP,SASY.PA,verified prompt | verified against LSEG | Sanofi
+SAP GR,SAPG.DE@RIC,SAP
+SBUX US,SBUX.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+SHEL LN,SHEL.L,verified prompt | verified against LSEG | Shell — London primary post-unification
+SHOP CA,SHOP.TO,verified prompt | verified against LSEG | Shopify
+SIE GR,SIEGn.DE@RIC,Siemens nominative
+SNOW US,SNOW.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+SNY US,SNY.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Sanofi ADR
+SQ US,SQ.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+SSEC CN,.SSEC,verified prompt | verified against LSEG | Shanghai Composite
+STLA IM,STLAM.MI@RIC,Stellantis Milan listing uses STLAM not STLA
+SU CA,SU.TO,verified prompt | verified against LSEG | Suncor
+SU FP,SCHN.PA,verified prompt | verified against LSEG | Schneider Electric
+TD CA,TD.TO,verified prompt | verified against LSEG | Toronto-Dominion
+TSLA US,TSLA.OQ,trusted unverified prompt override | high-confidence override; not individually verified in this session | Tesla
+TTE FP,TTEF.PA@RIC,TotalEnergies - some sources show TTEF
+TXN US,TXN.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+UCG IM,CRDI.MI,verified prompt | verified against LSEG | UniCredit — RIC CRDI.MI
+VOW GR,VOWG.DE@RIC,Volkswagen Ordinary
+VOW3 GR,VOWG_p.DE@RIC,Volkswagen Preferred uses _p suffix in older RIC convention
+WBA US,WBA.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ
+WDS AU,WDS.AX,verified prompt | verified against LSEG | Woodside Energy
+WMT US,WMT.OQ,unverified rule prompt override | derived from rule; verify before use | BBG suffix rule: US -> .OQ

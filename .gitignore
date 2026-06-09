@@ -1,0 +1,53 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Tooling caches ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Run-stamped outputs (regenerated; not source) ---
+data/outputs/
+
+# --- Legacy generated artefacts at repo root ---
+# These are outputs/scratch that pre-date the data/outputs/ layout.
+# They live next to source today; ignore them so future commits don't capture them.
+*.png
+*.log
+*.tmp
+grep_*.txt
+run_output.txt
+coverage_run_log.txt
+cof_analysis_results.json
+forward_curve_test_results.txt
+forward_curve_test_final_results.txt
+forward_discovery_results.txt
+forwards_output/
+
+# --- Allow reference assets even though we ignore PNGs above ---
+!data/reference/**/*.png
+!docs/**/*.png

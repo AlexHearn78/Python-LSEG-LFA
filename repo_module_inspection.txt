@@ -1,0 +1,167 @@
+=== Module docstring ===
+Repo module
+
+=== Public surface ===
+  AccruedCalculationMethodEnum: CaseInsensitiveEnumMeta
+    -> Type of AccruedCalculationMethodEnum.
+  AccruedRoundingEnum: CaseInsensitiveEnumMeta
+    -> Type of AccruedRoundingEnum.
+  AccruedRoundingTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of AccruedRoundingTypeEnum.
+  AdjustInterestToPaymentDateEnum: CaseInsensitiveEnumMeta
+    -> Type of AdjustInterestToPaymentDateEnum.
+  AmortizationFrequencyEnum: CaseInsensitiveEnumMeta
+    -> Type of AmortizationFrequencyEnum.
+  AmortizationItemDefinition: ABCMeta
+    -> General class to describe a section/item of amortization schedule.
+  AssignmentKey: ABCMeta
+    -> AssignmentKey.
+  BenchmarkYieldSelectionModeEnum: CaseInsensitiveEnumMeta
+    -> Type of BenchmarkYieldSelectionModeEnum.
+  BondDefinition: ABCMeta
+    -> Contains the user input data for the bond.
+  BondPricingParameters: ABCMeta
+    -> Bond pricing parameters.
+  BondRoundingParameters: ABCMeta
+    -> BondRoundingParameters.
+  CreditSpreadTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of CreditSpreadTypeEnum.
+  DayCountBasisEnum: CaseInsensitiveEnumMeta
+    -> Type of DayCountBasisEnum.
+  DefaultBondQuote: ABCMeta
+    -> DefaultBondQuote.
+  DiscountMarketDataAssignmentKey: ABCMeta
+    -> DiscountMarketDataAssignmentKey.
+  DiscountMarketDataAssignmentKeyAssignmentItem: ABCMeta
+    -> DiscountMarketDataAssignmentKeyAssignmentItem.
+  FinancialContractResponse: ABCMeta
+    -> The tabular response of the Financial Contract API of the Quantitative Analytics service.
+  FinancialContractStubRuleEnum: CaseInsensitiveEnumMeta
+    -> Type of FinancialContractStubRuleEnum.
+  ForwardMarketDataAssignmentKey: ABCMeta
+    -> ForwardMarketDataAssignmentKey.
+  ForwardMarketDataAssignmentKeyAssignmentItem: ABCMeta
+    -> ForwardMarketDataAssignmentKeyAssignmentItem.
+  FxPriceSideEnum: CaseInsensitiveEnumMeta
+    -> Type of FxPriceSideEnum.
+  Header: ABCMeta
+    -> Header.
+  HullWhiteParameters: ABCMeta
+    -> HullWhiteParameters.
+  IPAAmortizationTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of IPAAmortizationTypeEnum.
+  IPABuySellEnum: CaseInsensitiveEnumMeta
+    -> Type of IPABuySellEnum.
+  IPADirectionEnum: CaseInsensitiveEnumMeta
+    -> Type of IPADirectionEnum.
+  IPADividendTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of IPADividendTypeEnum.
+  IPAIndexObservationMethodEnum: CaseInsensitiveEnumMeta
+    -> Type of IPAIndexObservationMethodEnum.
+  IPAVolatilityTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of IPAVolatilityTypeEnum.
+  IndexAverageMethodEnum: CaseInsensitiveEnumMeta
+    -> Type of IndexAverageMethodEnum.
+  IndexCompoundingMethodEnum: CaseInsensitiveEnumMeta
+    -> Type of IndexCompoundingMethodEnum.
+  IndexResetFrequencyEnum: CaseInsensitiveEnumMeta
+    -> Type of IndexResetFrequencyEnum.
+  InflationModeEnum: CaseInsensitiveEnumMeta
+    -> Type of InflationModeEnum.
+  InterestCalculationMethodEnum: CaseInsensitiveEnumMeta
+    -> Type of InterestCalculationMethodEnum.
+  InterestPaymentFrequencyEnum: CaseInsensitiveEnumMeta
+    -> Type of InterestPaymentFrequencyEnum.
+  InterestRateAssignment: ABCMeta
+    -> InterestRateAssignment.
+  InterestTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of InterestTypeEnum.
+  MarketDataAssignments: ABCMeta
+    -> MarketDataAssignments.
+  MarketDataQps: ABCMeta
+    -> MarketDataQps.
+  PaymentBusinessDayConventionEnum: CaseInsensitiveEnumMeta
+    -> Type of PaymentBusinessDayConventionEnum.
+  PaymentRollConventionEnum: CaseInsensitiveEnumMeta
+    -> Type of PaymentRollConventionEnum.
+  PriceRoundingEnum: CaseInsensitiveEnumMeta
+    -> Type of PriceRoundingEnum.
+  PriceRoundingTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of PriceRoundingTypeEnum.
+  PriceSideEnum: CaseInsensitiveEnumMeta
+    -> Type of PriceSideEnum.
+  ProjectedIndexCalculationMethodEnum: CaseInsensitiveEnumMeta
+    -> Type of ProjectedIndexCalculationMethodEnum.
+  QuotationModeEnum: CaseInsensitiveEnumMeta
+    -> Type of QuotationModeEnum.
+  QuoteFallbackLogicEnum: CaseInsensitiveEnumMeta
+    -> Type of QuoteFallbackLogicEnum.
+  RedemptionDateTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of RedemptionDateTypeEnum.
+  RepoAnalyticsResponseData: ABCMeta
+    -> RepoAnalyticsResponseData.
+  RepoAnalyticsResponseWithError: ABCMeta
+    -> Describes a response that includes data and associated error information (if any).
+  RepoCalculationResponse: ABCMeta
+    -> Describes the analytics response for operations performed with instruments not stored on the
+  RepoCashflows: ABCMeta
+    -> Cashflows Object.
+  RepoCurveTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of RepoCurveTypeEnum.
+  RepoDefinition: ABCMeta
+    -> Definition of the Repo contract.
+  RepoDefinitionInstrument: ABCMeta
+    -> Defines an instrument or a curve by specifying a complete definition, platform reference, or
+  RepoDescription: ABCMeta
+    -> Description Object.
+  RepoParameters: ABCMeta
+    -> RepoParameters.
+  RepoPricingAnalysis: ABCMeta
+    -> Pricing analysis Object.
+  RepoPricingParameters: ABCMeta
+    -> Repo input parameters for pricing purpose.
+  RepoRateFrequencyEnum: CaseInsensitiveEnumMeta
+    -> Type of RepoRateFrequencyEnum.
+  RepoRateTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of RepoRateTypeEnum.
+  RepoUnderlyingContract: ABCMeta
+    -> RepoUnderlyingContract.
+  RepoUnderlyingPricingParameters: ABCMeta
+    -> RepoUnderlyingPricingParameters.
+  RepoValuation: ABCMeta
+    -> Valuation Object.
+  SpreadRoundingEnum: CaseInsensitiveEnumMeta
+    -> Type of SpreadRoundingEnum.
+  SpreadRoundingTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of SpreadRoundingTypeEnum.
+  TypeEnum: CaseInsensitiveEnumMeta
+    -> Type of TypeEnum.
+  VolatilityTermStructureTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of VolatilityTermStructureTypeEnum.
+  YieldRoundingEnum: CaseInsensitiveEnumMeta
+    -> Type of YieldRoundingEnum.
+  YieldRoundingTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of YieldRoundingTypeEnum.
+  YieldTypeEnum: CaseInsensitiveEnumMeta
+    -> Type of YieldTypeEnum.
+  functions_all: list
+  price: function
+    ->     Calculate Repo analytics
+
+=== If a request item class exists, inspect its fields ===
+
+AmortizationItemDefinition fields:
+  args: typing.Any
+  kwargs: typing.Any
+
+BondDefinition fields:
+  args: typing.Any
+  kwargs: typing.Any
+
+RepoDefinition fields:
+  args: typing.Any
+  kwargs: typing.Any
+
+RepoDefinitionInstrument fields:
+  args: typing.Any
+  kwargs: typing.Any

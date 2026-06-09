@@ -1,0 +1,21 @@
+Name,ISIN,InstrumentCode,Status,Strikes,Expiries,Min Exp,Max Exp,Min Strike,Max Strike,Notes
+ACWI US,US4642882579,ACWI.O@RIC,OK,19,5,20d,265d,75.2%,225.7%,
+ARKG US,US00214Q2073,US00214Q2073,FAIL,,,,,,,"Bad request: code=FinancialContract-API.PricingError Market data: The service failed to gather enough options to build the ARKG.NA@RIC volatility surface at 2026-04-25, or the underlying RIC is unknown."
+ARKK US,US00214Q1040,US00214Q1040,FAIL,,,,,,,"Bad request: code=FinancialContract-API.PricingError Market data: The service failed to gather enough options to build the ARKK.NA@RIC volatility surface at 2026-04-25, or the underlying RIC is unknown."
+COPX US,US37950E1082,US37950E1082,FAIL,,,,,,,"Bad request: code=FinancialContract-API.PricingError Market data: The service failed to gather enough options to build the COPX.NA@RIC volatility surface at 2026-04-25, or the underlying RIC is unknown."
+DAXEX GR,IE00B53SZB35,IE00B53SZB35,FAIL,,,,,,,"Bad request: code=FinancialContract-API.PricingError Market data: The service failed to gather enough options to build the DAXEX.NA@RIC volatility surface at 2026-04-25, or the underlying RIC is unknown."
+DBA US,US46138G8602,DBA@RIC,OK,19,4,20d,174d,13.7%,41.1%,
+DIA US,US78468R1023,DIA@RIC,OK,19,15,20d,965d,246.1%,738.3%,
+EEM US,US4642872349,EEM@RIC,OK,19,15,20d,636d,31.9%,95.6%,
+EWZ US,US4642871849,EWZ@RIC,OK,19,17,20d,636d,20.0%,59.9%,
+FDN US,US33734X1090,FDN@RIC,OK,19,4,20d,174d,131.6%,394.7%,
+GLD US,US78463V1070,GLD@RIC,OK,19,18,20d,965d,216.6%,649.9%,
+HYG US,US4642885135,HYG@RIC,OK,19,13,20d,636d,40.2%,120.7%,
+IWM US,US4642876555,IWM@RIC,OK,19,19,20d,965d,138.3%,415.0%,
+QQQ US,US46090E1038,QQQ.O@RIC,OK,19,19,20d,965d,331.9%,995.8%,
+SLV US,US46434V1035,SLV@RIC,OK,19,17,20d,965d,34.4%,103.2%,
+SPY US,US78462F1030,SPY@RIC,OK,19,18,20d,965d,357.0%,1070.9%,
+TLT US,US4642874329,TLT.O@RIC,OK,19,19,20d,636d,43.4%,130.1%,
+VWO US,US4642872349,VWO@RIC,OK,19,6,20d,237d,29.5%,88.5%,
+XLF US,US81369Y6051,XLF@RIC,OK,19,17,20d,965d,25.7%,77.1%,
+XOP US,US78463X4044,XOP@RIC,OK,19,8,20d,965d,84.0%,252.1%,
